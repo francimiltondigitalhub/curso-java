@@ -2,23 +2,24 @@ package fundamentos;
 
 public class Aula02_Variaveis_Constantes {
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 
-		int numeroInteiro = 3; // variável DO TIPO INTEIRO --> Usado para números inteiros (sem casas
-								// decimais).
+        int numeroInteiro = 3; // Armazena números inteiros.
 
-		// Área de uma circunferência:
+        // Área de uma circunferência
 
-		double Raio = 3.4; // Variável para armazenar o raio do círculo.
+        double raio = 3.4; // Raio do círculo.
 
-		final double PI = 3.14159; // Valor de PI. Como não muda, pode ser transformado em constante (final)
+        final double PI = 3.14159; // Constante PI.
 
-		double Area = PI * Raio * Raio; // Fórmula da área: π × raio²
+        double area = PI * raio * raio; // Área = PI × raio²
 
-		System.out.println(Area);
+        System.out.println("Área = " + area + " m²");
 
-		Raio = 10;
-		Area = PI * Raio * Raio;
-		System.out.println("Área = " + Area + "m2"); // concatena
-	}
+        raio = 10;
+
+        area = PI * raio * raio;
+
+        System.out.println("Área = " + area + " m²");
+    }
 }
