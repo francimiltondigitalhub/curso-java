@@ -33,7 +33,7 @@ public class Aula04_Inferencia {
 		var f = 12; // Aqui ela já definiu que é do tipo INTEIRO.
 		//f = 12.01; // o resultado é um erro: cannot convert from double to int
 
-		System.out.println(f); // erro: cannot convert from double to int
+		System.out.println(f);
 	}
 
 }
